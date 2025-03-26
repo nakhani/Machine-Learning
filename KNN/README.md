@@ -39,8 +39,7 @@ This repository contains an implementation of the **k-Nearest Neighbors (kNN)** 
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   https://github.com/nakhani/Data-Science/tree/cbe1628d2d9166f5e18caaafd4db6969aac1dc87/Data%20Science_2
-   ```
+https://github.com/nakhani/Machine-Learning-/tree/4eff3fc85a25e9ee4395d30c42ef0ae66e01526b/KNN   ```
 
 2. Navigate to the directory:
    ```sh
