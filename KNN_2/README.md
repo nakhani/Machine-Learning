@@ -168,7 +168,7 @@ Both the **custom** and **Scikit-Learn KNN algorithms** produce comparable resul
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   https://github.com/nakhani/Machine-Learning-/tree/4eff3fc85a25e9ee4395d30c42ef0ae66e01526b/KNN  
+   https://github.com/nakhani/Machine-Learning-/tree/5240ac51e8a47ce4d74aa57e7128754ebd5017b0/KNN_2  
    ```
 
 2. Navigate to the directory:
