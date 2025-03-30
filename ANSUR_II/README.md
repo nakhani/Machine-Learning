@@ -168,12 +168,12 @@ Both the **custom** and **Scikit-Learn KNN algorithms** produce comparable resul
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   https://github.com/nakhani/Machine-Learning-/tree/5240ac51e8a47ce4d74aa57e7128754ebd5017b0/KNN_2  
+   https://github.com/nakhani/Machine-Learning-/tree/5240ac51e8a47ce4d74aa57e7128754ebd5017b0/ANSUR_II  
    ```
 
 2. Navigate to the directory:
    ```sh
-   KNN_2
+   ANSUR_II
    ```
 
 3. Install the required packages:
