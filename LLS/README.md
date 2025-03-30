@@ -57,7 +57,7 @@ Building on the Nemo project, this section extends the algorithm for detecting D
 
 
 ### **Confusion Matrix (2x2):**
-   <img src = "Dory/outputs/matrix.png" width = "400">
+   <img src = "results/plot.png" width = "400">
 
 
 
@@ -99,8 +99,8 @@ The Breast Cancer dataset is used to classify patients based on diagnostic data 
 
    | **k Value** | **Accuracy (%)** |
    |-------------|------------------|
-   | 3           | 92.9             |
-   | 5           | 95.6             |
+   | 3           | 93.8             |
+   | 5           | 92.9             |
    | 7           | 95.6             |
 
 
