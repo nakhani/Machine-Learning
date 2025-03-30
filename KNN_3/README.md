@@ -54,7 +54,7 @@ Building on the Nemo project, this section extends the algorithm for detecting D
   <img src = "Dory/dory-300x185.jpg" width = "400">
 
   <img src = "Dory/outputs/output2.png" width = "400">
-  
+
 
 ### **Confusion Matrix (2x2):**
    <img src = "results/plot.png" width = "400">
@@ -113,7 +113,7 @@ The Breast Cancer dataset is used to classify patients based on diagnostic data 
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   https://github.com/nakhani/Machine-Learning-/tree/5240ac51e8a47ce4d74aa57e7128754ebd5017b0/ANSUR_II  
+   https://github.com/nakhani/Machine-Learning-/tree/a63f2be10c127a5b6d240f6a736bd972c9badbc7/KNN_3
    ```
 
 2. Navigate to the directory:
