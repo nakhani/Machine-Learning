@@ -73,7 +73,7 @@ Predict housing prices using selected features from the California dataset, show
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   https://github.com/nakhani/Machine-Learning-/tree/a63f2be10c127a5b6d240f6a736bd972c9badbc7/KNN_3
+   https://github.com/nakhani/Machine-Learning-/tree/97f4905c47ff9b6bccbafcc0c221ed7167ffea48/LLS
    ```
 
 2. Navigate to the directory:
