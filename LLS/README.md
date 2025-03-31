@@ -94,6 +94,6 @@ Predict housing prices using selected features from the California dataset, show
    ```
 
 ## Dependencies
-- Python (OpenCV, NumPy, Matplotlib, Scikit-learn)
+- Python (Pandas, NumPy, Matplotlib, SciPy, Scikit-learn)
 - Jupyter Notebook
-- Confusion Matrices (Generated using Scikit-learn)
+- Performance Metrics (Generated using Scikit-learn)
