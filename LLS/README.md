@@ -1,115 +1,75 @@
-# KNN-Based Image Processing and Classification
+# Linear Least Squares (LLS) Regression
 
-This repository demonstrates the use of the k-Nearest Neighbors (KNN) algorithm for various applications, including **image processing** with Nemo and Dory, and **dataset classification** with IRIS and Breast Cancer datasets.
+This repository demonstrates two linear regression projects using the **Linear Least Squares (LLS)** method. Both projects showcase the relationship between input features and target values, and provide analysis and visualization of results using regression techniques.
 
 ---
 
-## **Finding Nemo**
-This project focuses on removing the background and detecting Nemo in images using HSV color space and KNN.
+## **Students Performance (Regression)**
+Predict student grades based on the number of study hours, illustrating how studying more correlates with better grades.
 
-### **Steps:**
-1. Implemented the `KNN` class for classification.
-2. Created a training dataset by labeling Nemo pixels (🟠orange, ⚪white, ⚫black) and background pixels.
-3. Trained the KNN classifier with the labeled dataset.
-4. Predicted Nemo pixels in new test images and removed the background.
-5. Encapsulated all steps in the `FindingNemo` class for automation.
-
-### **Technologies Used:** 
-Python (OpenCV, NumPy, Matplotlib)
+#### Implementation:
+- **Dataset**: A randomly generated dataset where:
+  - `X = study hours`
+  - `Y = grades` (with some noise added).
+- **Steps**:
+  - Split the dataset into training and testing sets using `train_test_split`.
+  - Visualize incorrect regression attempts (random red lines).
+  - Fit an **LLS model** to predict grades (correct regression line in blue).
+  - Compare results with `scipy`'s `linregress` regression (green line).
 
 ### **Result:**
 
-**Training Image**:
+   <img src = "Student_grade/output.png" width = "400">
 
-   <img src = "Nemo/nemo.jpg" width = "400">
+### Performance Metrics
 
-   <img src = "Nemo/result/output.png" width = "400">
-
-**Test Image**:
-
-   <img src = "Nemo/dashe-nemo.jpg" width = "400">
-
-   <img src = "Nemo/result/output2.png" width = "400">
+  | **Metric**                         | **Students Performance** | 
+  |------------------------------------|--------------------------|
+  | **Mean Absolute Error (MAE)**      | 1.37                     | 
+  | **Mean Squared Error (MSE)**       | 3.20                     | 
+  | **Root Mean Squared Error (RMSE)** | 1.79                     | 
+  | **R-squared (R²)**                 | 0.90                     | 
 
 ---
 
-## **Finding Dory**
-Building on the Nemo project, this section extends the algorithm for detecting Dory. The HSV color space and KNN classifier are adapted for Dory's unique color scheme.
+## **California House-Prices (Regression)**
+Predict housing prices using selected features from the California dataset, showcasing the relationship between features and house prices.
 
-### **Steps:**
-1. Labeled pixels for Dory’s colors (e.g., 🔵blue and 🟡yellow) and background pixels.
-2. Trained the KNN classifier on Dory-specific data.
-3. Predicted and segmented Dory pixels in new test images.
+#### Implementation:
+- **Dataset**: California house prices dataset from `scikit-learn`.
+  - Features:
+    - `X = AveRooms` and `MedInc`.
+  - Target:
+    - `Y = Median House Prices (MEDV)`.
+- **Steps**:
+  - Split the dataset into training and testing sets using `train_test_split`.
+  - Fit an **LLS model** to predict house prices.
+  - Visualize results in a **3D plot**, including:
+    - Actual test data (Pink points).
+    - Regression plane based on `y_pred` (blue plane).
 
 ### **Result:**
 
-**Training Image**:
+  <img src = "California_house_price/Figure_1.png" width = "400">
 
-  <img src = "Dory/dory.png" width = "400">
+  <img src = "California_house_price/Figure_2.png" width = "400">
 
-  <img src = "Dory/outputs/output.png" width = "400">
-
-**Test Image**:
-
-  <img src = "Dory/dory-300x185.jpg" width = "400">
-
-  <img src = "Dory/outputs/output2.png" width = "400">
+  <img src = "California_house_price/Figure_3.png" width = "400">
 
 
-### **Confusion Matrix (2x2):**
-   <img src = "results/plot.png" width = "400">
+### Performance Metrics
+
+  | **Metric**                         | **California House-Prices** | 
+  |------------------------------------|-----------------------------|
+  | **Mean Absolute Error (MAE)**      | 0.62                        | 
+  | **Mean Squared Error (MSE)**       | 0.70                        | 
+  | **Root Mean Squared Error (RMSE)** | 0.83                        | 
+  | **R-squared (R²)**                 | 0.46                        | 
 
 
-
----
-
-## **IRIS Dataset**
-The IRIS dataset is used to classify different species of iris flowers (Setosa, Versicolor, Virginica) based on features such as sepal and petal dimensions.
-
-### **Steps:**
-1. Loaded the IRIS dataset using Scikit-learn.
-2. Split the dataset into training (80%) and testing (20%).
-3. Implemented and trained the `KNN` algorithm.
-4. Evaluated with different values of `k` (e.g., 3, 5, 7) and calculated accuracy and confusion matrix.
-
-### **Accuracy Results:**
-
-   | **k Value** | **Accuracy (%)** |
-   |-------------|------------------|
-   | 3           | 100.0            |
-   | 5           | 100.0            |
-   | 7           | 96.6             |
-
-### **Confusion Matrix (3x3):**
-
-   <img src = "Iris_dataset/output.png" width = "400">
 
 ---
 
-## **Breast Cancer Dataset**
-The Breast Cancer dataset is used to classify patients based on diagnostic data (e.g., malignant or benign).
-
-### **Steps:**
-1. Loaded the Breast Cancer dataset using Scikit-learn.
-2. Split the dataset into training (80%) and testing (20%).
-3. Implemented and trained the `KNN` algorithm.
-4. Evaluated with different values of `k` (e.g., 3, 5, 7) and calculated accuracy and confusion matrix.
-
-### **Accuracy Results:**
-
-   | **k Value** | **Accuracy (%)** |
-   |-------------|------------------|
-   | 3           | 93.8             |
-   | 5           | 92.9             |
-   | 7           | 95.6             |
-
-
-### **Confusion Matrix (2x2):**
-
-   <img src = "Breast_cancer_dataset/output.png" width = "400">
-
-
----
 ## How to Run the Code
 1. Clone the repository:
    ```sh
@@ -118,7 +78,7 @@ The Breast Cancer dataset is used to classify patients based on diagnostic data 
 
 2. Navigate to the directory:
    ```sh
-   KNN_3
+   LLS
    ```
 
 3. Install the required packages:
@@ -129,10 +89,8 @@ The Breast Cancer dataset is used to classify patients based on diagnostic data 
 4. Run the assignments:
 
    ```sh
-    jupyter notebook cancer.ipynb # For classify Breast Cancer dataset with KNN 
-    jupyter notebook Iris.ipynb # For classify  Iris dataset with KNN 
-    jupyter notebook nemo.ipynb # For detecting and removing background of Nemo's image with KNN 
-    jupyter notebook dory.ipynb # For detecting and removing background of Dory's image with KNN 
+    jupyter notebook california_predict.ipynb # For predict california house prices with LLS 
+    jupyter notebook student_grade_predict.ipynb # For predict student's grade with LLS 
    ```
 
 ## Dependencies
