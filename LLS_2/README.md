@@ -86,7 +86,7 @@ Analyze dollar price variations under three Iranian presidencies: Ahmadinejad, R
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   https://github.com/nakhani/Machine-Learning-/tree/97f4905c47ff9b6bccbafcc0c221ed7167ffea48/LLS
+   https://github.com/nakhani/Machine-Learning-/tree/2a68cda1f22446815826f600810fbf25fed49300/LLS_2
    ```
 
 2. Navigate to the directory:
