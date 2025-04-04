@@ -64,11 +64,11 @@ The implementation includes:
 
 - Loss Plot:
 
-  <img src = "California_house/Figure_1.png" width = "350">
+  <img src = "California_house/Figure_1.png" width = "380">
 
 - 3D Prediction Animation:
   
-  <img src = "California_house/house_price_prediction.gif" width = "350">
+  <img src = "California_house/house_price_prediction.gif" width = "380">
 
 
 ---
