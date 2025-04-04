@@ -100,4 +100,3 @@ The implementation includes:
 ## Dependencies
 - Python (Pandas, NumPy, Matplotlib, SciPy, Scikit-learn)
 - Jupyter Notebook
-- Performance Metrics (Generated using Scikit-learn)
