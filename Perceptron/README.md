@@ -93,7 +93,7 @@ The implementation includes:
 
    ```sh
     jupyter notebook california_house.ipynb # For predict house prices in California with perceptron 
-    jupyter notebook albone.ipynb # For predict length of Albone  with perceptron 
+    jupyter notebook abalone.ipynb # For predict length of Abalone  with perceptron 
     jupyter notebook employers.ipynb # For predict salary of employers  with perceptron 
    ```
 
