@@ -60,7 +60,7 @@ The implementation includes:
 
   <img src = "Abalone/Figure_1.png" width = "400">
 
-#### **3.Boston House Prices 🏠**
+#### **3.California House Prices 🏠**
 
 - Loss Plot:
 
@@ -81,7 +81,7 @@ The implementation includes:
 
 2. Navigate to the directory:
    ```sh
-   perceptron
+   Perceptron
    ```
 
 3. Install the required packages:
