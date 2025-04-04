@@ -64,9 +64,11 @@ The implementation includes:
 
 - Loss Plot:
 
-  <img src = "California_house/Figure_1.png" width = "400">
+  <img src = "California_house/Figure_1.png" width = "350">
 
 - 3D Prediction Animation:
+  
+  <img src = "California_house/house_price_prediction.gif" width = "350">
 
 
 ---
@@ -74,7 +76,7 @@ The implementation includes:
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   https://github.com/nakhani/Machine-Learning-/tree/2a68cda1f22446815826f600810fbf25fed49300/LLS_2
+   https://github.com/nakhani/Machine-Learning/tree/69e66653b4912ed9ad991a678472959065e248a7/Perceptron
    ```
 
 2. Navigate to the directory:
