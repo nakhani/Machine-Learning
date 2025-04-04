@@ -1,84 +1,72 @@
-# Linear Least Squares (LLS) Regression
+# Perceptron (Perception Neuron)
 
-This repository demonstrates two linear regression projects using the **Linear Least Squares (LLS)** method. Both projects explore the relationship between input features and target values, showcasing preprocessing techniques, model evaluation, and comparisons with 
+The perceptron is a supervised learning algorithm typically used for binary classification but adapted here for solving regression problems. The model iteratively updates weights and biases based on training data to minimize the loss function.This repository implements the **Perceptron algorithm** for solving regression problems on various datasets, including:
+- **Employee's salary dataset** 💵
+- **Abalone dataset** 🐚
+- **Boston house-prices dataset** 🏠
+
+The implementation includes:
+- Generating simulated datasets using the `scikit-learn` library.
+- Splitting data into training and testing sets.
+- Creating a custom Perceptron class.
+- Training the model and plotting the results (data graph and loss graph).
+
+## Features
+
+- **Simulated Dataset Generation:** 
+  - Create linear regression datasets using `make_regression` from `scikit-learn`.
+  - Split datasets into training and testing sets.
+
+- **Custom Perceptron Implementation** 
+
+- **Hyperparameter Tuning:**
+  - Adjust learning rate, epochs, and other parameters for best results.
+
+- **Data Visualization:** 
+  - Plot data and loss graphs as subplots in a single window.
+  - For Boston dataset regression, visualize results with 3D plots, including predictions drawn as a plane animation.
+
+## Datasets
+
+### 1. Employee's Salary 💵
+- Generate a simulated dataset using the following code:
+  ```python
+  from sklearn.datasets import make_regression
+  ```
+- Train and evaluate the perceptron algorithm.
+- Plot data graph and loss graph for insights.
+
+### 2. Abalone 🐚
+- Fit the perceptron algorithm on the abalone dataset.
+- Adjust hyperparameters to optimize results.
+- Visualize data graph and loss graph.
+
+### 3. California House Prices 🏠
+- Load the dataset using `scikit-learn`
+- Choose 2 features (MedInc and AveRooms) as input X and price as target Y.
+- Split the dataset into training and testing sets.
+- Train and evaluate the perceptron algorithm.
+- Display predictions as a 3D plot with animated visualization of the regression plane.
 
 ---
 
-## **Tehran House Price Prediction**
-Predict house prices in Tehran using all available features, along with preprocessing techniques to update dollar prices to July 2023.
-
-### **Implementation**:
-- **Dataset**: Housing data from Tehran (Divar.ir).
-  - **Features**:
-    - `X = Area`, `Room`, `Parking`, `Warehouse`, `Elevator`, and additional location-based features.
-  - **Target**:
-    - `Y = House Price`.
-- **Steps**:
-  - **Preprocessing**: Update dollar prices to July 2023, clean and format the dataset for analysis.
-  - **Feature Selection**: Use all possible features for training (`X_train`).
-  - **Split Dataset**: Implement `train_test_split` function from scratch to divide data into training and testing sets.
-  - **Fit Model**: Train the LLS model using the training data.
-  - **Evaluate**: Use **MAE**, **MSE**, and **RMSE** to measure performance on the test set.
-  - **Comparison**: Compare results with Scikit-Learn’s `LinearRegression` and `RidgeCV`.
-
 ### **Result:**
 
-  <img src = "Divar_dataset/Figure_1.png" width = "400">
+#### **1.Employee's Salary 💵**
 
-  <img src = "Divar_dataset/Figure_2.png" width = "400">
+  <img src = "Employee's salary/Figure_2.png" width = "400">
 
-  <img src = "Divar_dataset/Figure_3.png" width = "400">
+#### **2.Abalone 🐚**
 
-### Performance Metrics
+  <img src = "Abalone/Figure_1.png" width = "400">
 
-   | **Metric**                         | **LLS Model Result**             | **Scikit-Learn: LinearRegression** | **Scikit-Learn: RidgeCV**         |
-   |------------------------------------|-----------------------------------|-------------------------------------|-----------------------------------|
-   | **Mean Absolute Error (MAE)**      | 2015576756                         | 2015418643                           | 1999349713                        |
-   | **Mean Squared Error (MSE)**       | 2.01                          | 2.01                           | 1.85                         |
-   | **Root Mean Squared Error (RMSE)** | 4490142081                         | 4490059821                            | 4306790504                         |
-   | **R-squared (R²)**                 | 0.56                              | 0.69                                | 0.72                             |
+#### **3.Boston House Prices 🏠**
 
+- Loss Plot:
 
----
+  <img src = "California_house/Figure_1.png" width = "400">
 
-## **Dollar Rial Price**
-Analyze dollar price variations under three Iranian presidencies: Ahmadinejad, Rouhani, and Raisi.
-
-### **Implementation**:
-- **Dataset**: Historical dollar-to-rial exchange rates.
-  - **Features**:
-    - `X = Presidency`, `Date_numeric`, `Open`, `High`, and `Low`.
-  - **Target**:
-    - `Y = Dollar Price`.
-- **Steps**:
-  - **Divide Dataset**: Split the dataset into subsets corresponding to each presidency.
-  - **Analysis**:
-    - Show the highest and lowest dollar prices during each presidency.
-  - **Split Dataset**: Divide each subset into training and testing sets using a custom `train_test_split` function.
-  - **Fit Model**: Train the LLS model for each presidency subset.
-  - **Evaluate**: Measure performance using **MAE** and compare results across presidencies using Scikit-Learn’s `mean_absolute_error`.
-
-
-### **Result:**
-
-### **Dollar Price Analysis**
-
-| **Presidency**          | **Highest Dollar Price** | **Lowest Dollar Price** |
-|-------------------------|--------------------------|-------------------------|
-| **Ahmadinejad**         | 3,890                    | 1,335                   |
-| **Rouhani**             | 31,800                   | 2,800                   |
-| **Raisi**               | 55,000                   | 20,600                  |
-
-
-
-### Performance Metrics
- 
-| **Metric**                         | **LLS Model Result**             | **Scikit-Learn: LinearRegression** |
-|------------------------------------|-----------------------------------|-------------------------------------|
-| **Mean Absolute Error (MAE)**      | 567                       | 567                          |
-| **Mean Squared Error (MSE)**       | 14031645                                | 14031645                                 |
-| **Root Mean Squared Error (RMSE)** | 3745                         | 3745                          |
-| **R-squared (R²)**                 | 0.99                              | 0.99                                 |
+- 3D Prediction Animation:
 
 
 ---
@@ -91,7 +79,7 @@ Analyze dollar price variations under three Iranian presidencies: Ahmadinejad, R
 
 2. Navigate to the directory:
    ```sh
-   LLS_2
+   perceptron
    ```
 
 3. Install the required packages:
@@ -102,8 +90,9 @@ Analyze dollar price variations under three Iranian presidencies: Ahmadinejad, R
 4. Run the assignments:
 
    ```sh
-    jupyter notebook house_price.ipynb # For predict house prices in Tehran with LLS 
-    jupyter notebook dollar_rial.ipynb # For predict DOllar in several years with LLS 
+    jupyter notebook california_house.ipynb # For predict house prices in California with perceptron 
+    jupyter notebook albone.ipynb # For predict length of Albone  with perceptron 
+    jupyter notebook employers.ipynb # For predict salary of employers  with perceptron 
    ```
 
 ## Dependencies
