@@ -31,6 +31,9 @@ A unique regression problem focused on hourly weather data collected over multip
 
 - **Visualization**:
   - Generate a table of daily average temperatures and their corresponding "day of the year."
+
+    <img src = "weather_forcast\output.png" width = "400">
+
   - Visualize the data and model predictions on a chart.
 
 - **Stored Results**:
@@ -70,30 +73,74 @@ A unique regression problem focused on hourly weather data collected over multip
 
 - Loss and Accuracy Plots:
 
-  <img src = "Employee's salary/Figure_2.png" width = "400">
+ - Relu:
+
+    <img src = "surgical/outputs/loss_accuracy_relu.png" width = "400">
+
+ - Sigmiod:
+    
+    <img src = "surgical/outputs/loss_accuracy_sigmiod.png" width = "400">
+
+ - Tanh:
+   
+    <img src = "surgical/outputs/loss_accuracy_tanh.png" width = "400">
+
+ - Linear:
+   
+    <img src = "surgical/outputs/loss_accuracy_linear.png" width = "400">
 
 
 - Confusion Matrix:
 
-  <img src = "Employee's salary/Figure_2.png" width = "400">
+ - Relu:
+
+    <img src = "surgical/outputs/conff_relu.png" width = "400">
+
+ - Sigmiod:
+    
+    <img src = "surgical/outputs/conff_sigmiod.png" width = "400">
+
+ - Tanh:
+   
+    <img src = "surgical/outputs/conff_tanh.png" width = "400">
+
+ - Linear:
+   
+    <img src = "surgical/outputs/conf_linear.png" width = "400">
+
+  
 
 - Evaluated Table:
+
+  | Activation Functions | Test Loss | Test Accuracy|
+  |----------------------|-----------|--------------|
+  | Relu                 | 0.37      | 0.68         |
+  | Sigmoid              | 0.37      | 0.68         |
+  | Tanh                 | 0.38      | 0.68         |
+  | Linear               | 0.37      | 0.68         |
+ 
+
 
 
 #### **2.Weather Prediction 🌦**
 
 - Loss and Accuracy Plots:
 
-  <img src = "Abalone/Figure_1.png" width = "400">
+  <img src = "weather_forcast/output_2.png" width = "400">
 
 - Evaluated Table: 
+
+  | Test Loss | Test Accuracy |
+  |-------------|-------------|
+  | 7.2         | 0.0         |
+
 
 ---
 
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   https://github.com/nakhani/Machine-Learning/tree/69e66653b4912ed9ad991a678472959065e248a7/Perceptron
+   https://github.com/nakhani/Machine-Learning/tree/9a6611e906c0557c1519d4bf05d81ed3a4a0aa0d/Perceptron_2
    ```
 
 2. Navigate to the directory:
@@ -114,5 +161,5 @@ A unique regression problem focused on hourly weather data collected over multip
    ```
 
 ## Dependencies
-- Python (Pandas, NumPy, Matplotlib, SciPy, Scikit-learn)
+- Python (Pandas, NumPy, Matplotlib, Scikit-learn)
 - Jupyter Notebook
