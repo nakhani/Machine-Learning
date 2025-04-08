@@ -118,7 +118,7 @@ A classification task aimed at recognizing handwritten digits from the Scikit-Le
 
 - Confusion Matrix:
 
-      <img src = "digits_MLP/conff_matrix.png" width = "400">
+  <img src = "digits_MLP/conff_matrix.png" width = "400">
 
 - Evaluate Table:
 
