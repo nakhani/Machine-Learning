@@ -110,17 +110,17 @@ A classification task aimed at recognizing handwritten digits from the Scikit-Le
 
 #### **2.Scikit-Learn Digits Dataset**
 
-### **Test and Train Loss and Accuracy Plots**
 
-- **Training and testing loss over epochs**:
-      <img src = "digits_MLP/plot.png" width = "400">
+- Training and testing loss over epochs:
+
+  <img src = "digits_MLP/plot.png" width = "400">
 
 
-### **Confusion Matrix**
-- **Visualized confusion matrix**:
+- Confusion Matrix:
+
       <img src = "digits_MLP/conff_matrix.png" width = "400">
 
-### **Evaluate Table**
+- Evaluate Table:
 
    | Loss Train | Accuracy Train | Loss Test | Accuracy Test |
    |------------|----------------|-----------|---------------|
@@ -130,7 +130,7 @@ A classification task aimed at recognizing handwritten digits from the Scikit-Le
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   https://github.com/nakhani/Machine-Learning/tree/9a6611e906c0557c1519d4bf05d81ed3a4a0aa0d/Perceptron_2
+   https://github.com/nakhani/Machine-Learning/tree/8dd577774a957e3e7556c3d0fae07b0689ffa3be/MLP
    ```
 
 2. Navigate to the directory:
