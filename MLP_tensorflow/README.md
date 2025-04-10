@@ -37,7 +37,7 @@ We implement a **Multilayer Perceptron (MLP)** neural network using TensorFlow f
 |----------------------|--------------|
 | KNN                  | 0.83           |
 | Perceptron           | 0.70         |
-| MLP (Multilayer Perceptron) | 0.90  |
+| MLP (Multilayer Perceptron) | 0.87  |
 
 
 
@@ -60,7 +60,7 @@ We implement a **Multilayer Perceptron (MLP)** neural network using TensorFlow f
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   https://github.com/nakhani/Machine-Learning/tree/8dd577774a957e3e7556c3d0fae07b0689ffa3be/MLP
+https://github.com/nakhani/Machine-Learning/tree/fe0a75c8315f29c3aff04518bf302ba034eda79f/MLP_tensorflow
    ```
 
 2. Navigate to the directory:
