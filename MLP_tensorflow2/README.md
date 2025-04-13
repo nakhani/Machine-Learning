@@ -44,7 +44,7 @@ Build a neural network model to predict house sale prices based on the dataset p
 
 4. **Model Evaluation**:
    - Evaluate the model on the validation dataset.
-   - The loss should be below $50,000 to meet the accuracy requirements.
+
 
 5. **Prediction**:
    - Use the trained model to predict house prices for unseen data.
@@ -90,7 +90,7 @@ Build a neural network model to predict house sale prices based on the dataset p
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   https://github.com/nakhani/Machine-Learning/tree/9a6611e906c0557c1519d4bf05d81ed3a4a0aa0d/Perceptron_2
+   https://github.com/nakhani/Machine-Learning/tree/8a25175abc944c7f0de01b6b493397a9b677a647/MLP_tensorflow2
    ```
 
 2. Navigate to the directory:
