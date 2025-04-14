@@ -42,7 +42,7 @@ My program has below **features**:
 
 ## Implementation Steps
 1. **Dataset Collection**:
-   - The gameplay data (`dataset.csv`) is collected using `main.AI.py`.
+   - The gameplay data (`dataset.csv`) is collected using `main_AI.py`.
    - Feature values are calculated dynamically during Snake's movement.
 
 2. **Training Neural Network**:
@@ -74,7 +74,7 @@ My program has below **features**:
 ## How to Run the Code
 1. Clone the repository:
    ```sh
-   https://github.com/nakhani/Machine-Learning/tree/8a25175abc944c7f0de01b6b493397a9b677a647/MLP_tensorflow2
+   https://github.com/nakhani/Machine-Learning/tree/e8e9a59b00a6d6cf8f3b665216b4d093e76f3c02/miniproject_snake
    ```
 
 2. Navigate to the directory:
