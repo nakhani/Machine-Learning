@@ -65,9 +65,9 @@ My program has below **features**:
 
 - Evaluated Table: 
 
-  | Test Loss  | Test Accuracy |
-  |-------------|-------------|
-  | 0.04        | 0.98       |
+  | Test Loss  | Test Accuracy | Train Loss | Train Accuracy |
+  |-------------|-------------|-------------|---------|
+  | 0.04        | 0.98       | 0.03         |  0.98 |
 
 
 ---
